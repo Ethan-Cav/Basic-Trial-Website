@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en"> 
+
+ <head>
+ 
+  <title>Project Submit Form</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="work-with-me.css">
+ 
+ </head>
+ 
+ <body> 
+  <div class="page">
+  <h1>Work With Me</h1>
+  <p>Please fill out the project registration form</p>
+  
+  
+   <form method="post" action="Thank-You.html">
+   <fieldset>
+    <label for="first-name">First Name<input id="first-name" type="text" name="first-name" required></label>
+	<label for="last-name">Last Name<input id="last-name" type="text" name="last-name" required></label>
+	<label for="email">Email<input id="email" type="email" name="email" required></label>
+   </fieldset>
+  
+   <fieldset>
+	<legend>Project Type (required) </legend>
+	<label for="personal-project"><input id="personal-project" type="checkbox" name="project-type" class="inline">Personal</label>
+	<label for="business-project"><input id="business-project" type="checkbox" name="project-type" class="inline">Business</label>
+	<label for="project-category">Project Category
+	  <select id="project-category" name="project-category">
+	    <option value="">(select one)</option>
+		<option value="1">Game</option>
+		<option value="2">Website</option>
+		<option value="3">Webapp</option>
+		<option value="4">Design</option>
+	  </select>
+	</label>
+	<label for="project-summary">Project Summary
+	  <textarea id="project-summary" name="project-summary" rows="5" cols="70" placeholder="My project should be able to..."></textarea>
+	</label>
+   </fieldset>
+  
+   <fieldset>
+    <label for="example-design">Upload Example Design<input id="example-design" type="file" name="file"></label>
+	<label for="project-length">Length of Expected Project (weeks) <input id="project-length" type="number" name="project-length" min="1" max="52"></label>
+   </fieldset>
+  
+   <label for="terms">
+    <input id="terms" type="checkbox" name="terms" class="inline" required >I Accept the <a href="blank">Terms and Conditions</a>
+   </label>
+   <input type="submit" value="Submit">
+  
+   </form>
+  </div>
+ </body>
+
+</html>
+
