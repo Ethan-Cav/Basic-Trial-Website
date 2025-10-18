@@ -89,4 +89,22 @@ p, li, code, legend, a {
 	list-style-position: inside;
 	text-align: center;
 	padding-left: 0;
+	display: block;
+    color: #C5C6C7;
+	font-family: "Verdana", "Arial", sans-serif;
+	margin: 1rem auto;
+ }
+.pos {
+	vertical-align: middle;
+}
+a:hover {
+  color: #55CC55;
+  text-decoration: underline;
+  
+}
+
+a {
+  color: #66FF66;
+  text-decoration: none;
+  
 }
