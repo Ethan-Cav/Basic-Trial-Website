@@ -78,6 +78,13 @@ p, li, code, legend, a {
 	color: #C5C6C7;
 	font-family: "Verdana", "Arial", sans-serif; 
 }
+h3 {
+	color: #4FBDBA;
+}
+h4 {
+	color: #AEB6BF;
+	text-decoration: underline;
+}
 
 .layout { 
     display: flex;
